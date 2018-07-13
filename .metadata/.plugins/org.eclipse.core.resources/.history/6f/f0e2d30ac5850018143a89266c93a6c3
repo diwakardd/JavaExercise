@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Srt {
+	 public static void main(String args[])
+	    {
+	        int num;
+	        Scanner scan = new Scanner(System.in);
+			System.out.println("Enter Number : ");
+	        num = scan.nextInt();
+	
+
+}
+}

@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Cap {
+
+	public static void main(String[] args) {
+		String ch;
+		Scanner scan = new Scanner(System.in);
+
+	    System.out.print ("Enter a String:");
+	    ch = scan.next();
+
+	}
+
+}

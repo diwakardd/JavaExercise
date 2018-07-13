@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class VC {
+
+	public static void main(String[] args) {
+		String text;
+		Scanner scan = new Scanner(System.in);
+
+	    System.out.print ("Enter a String:");
+	    text = scan.next();
+
+	    int spaces = 0;
+	    int consonants = 0;
+	    int vowelcount = 0 ;
+
+	    for (int index = 0; index < text.length(); index++) {
+	    char letters = text.charAt(index);
+
+
+	    if (letters == 'A' || letters == 'a')
+	        vowelcount++;
+
+
+
+	    else if (letters != 'a' && letters != 'e' && letters != 'i' && letters != 'o' && letters != 'u')
+	        consonants++;
+
+	    }
+
+
+	        System.out.println ("Vowels:" + vowelcount  + "\nConsonants :" + consonants + "\nSpaces : " + spaces);
+	}
+	}

@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Srt {
+	
+	 public static void main(String args[]) {
+		 
+     System.out.println("Enter Number:");
+	 Scanner sc = new Scanner(System.in);
+	 int num = sc.nextInt();
+	 
+	 String str = Integer.toString(num);
+	 char [] ch = new char [str.length()];
+	 for(int i=0;i<str.length();i++)
+	 {
+	 ch[i]= str.charAt(i);   
+	 } 
+	 
+	 for(int i=0;i<str.length();i++)
+
+	 {   
+	 System.out.print(ch +" ");
+	 }
+}
+}

@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Srt {
+	 public static void main(String args[])
+	    {
+	
+	         
+	         Scanner scan = new Scanner(System.in);
+	         System.out.println("Enter Number");
+	         int x = scan.nextInt();
+	         char[] xd = String.valueOf(x).toCharArray();
+
+	        for (int i = 0; i < xd.length; i++) {
+	            System.out.println(xd[i]);
+	        }
+	
+
+}
+}

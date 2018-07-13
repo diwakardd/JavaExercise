@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class VC {
+
+	public static void main(String[] args) {
+	String input;
+	Scanner scan = new Scanner(System.in);
+	
+    System.out.println("Enter word ");
+    input = scan.next();
+    System.out.println(input);
+
+	}
+
+}

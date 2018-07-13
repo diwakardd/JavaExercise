@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class VC {
+
+	public static void main(String[] args) {
+	String input;
+	Scanner scan = new Scanner(System.in);
+	
+    System.out.println("Enter word ");
+    input = scan.next();
+    System.out.println("The entered word is " +input);
+    
+    switch (input) {
+    case 'a':
+    case 'e':
+    case 'i':
+    case 'o':
+    case 'u':
+        System.out.println(input+ " is vowel");
+        break;
+    default:
+        System.out.println(input + " is consonant");
+	}
+
+}
+}
